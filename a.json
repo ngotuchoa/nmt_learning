@@ -1,9 +1,9 @@
 {
-  "attention": "",
+  "attention": "scaled_luong",
   "attention_architecture": "standard",
-  "batch_size": 32,
+  "batch_size": 128,
   "colocate_gradients_with_ops": true,
-  "dropout": 0.5,
+  "dropout": 0.2,
   "encoder_type": "bi",
   "eos": "</s>",
   "forget_bias": 1.0,
